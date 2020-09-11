@@ -1,0 +1,268 @@
+body {
+  text-align: center;
+  margin-top: 20%;
+  background-color: black;
+}
+/*
+Styling the letters in the spans using their ids.
+Apply animation to the spans and measure the duration it lasts.
+*/
+#c{
+    font-size:80px;
+    font-weight: bolder;
+  animation: c 3s infinite;
+
+}
+#o{
+  font-size:80px;
+  font-weight: bolder;
+  animation: o 3s infinite;
+}
+#oo {
+  font-size:80px;
+  font-weight: bolder;
+  animation: oo 3s infinite;
+}
+#l{
+  font-size:80px;
+  font-weight: bolder;
+  animation: l 3s infinite;
+}
+#cc{
+  font-size:80px;
+    font-weight: bolder;
+animation: cc 3s infinite;
+
+}
+#ooo{
+  font-size:80px;
+    font-weight: bolder;
+animation: ooo 3s infinite;
+
+}
+#d{
+  font-size:80px;
+  font-weight: bolder;
+animation: d 3s infinite;
+
+}
+#e{
+  font-size:80px;
+    font-weight: bolder;
+animation: e 3s infinite;
+
+}
+
+/* 
+Give a shifting color change to the styled letters in linear order.
+Specify percentages of the animation's duration, i.e., 12.5% * 3 seconds.
+*/
+
+@keyframes c {
+  12.5% {
+    color: black;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes o {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: black;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes oo {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: black;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes l {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: black;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes cc {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: black;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes ooo {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: black;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes d {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: black;
+  }
+  100% {
+    color: violet;
+  }
+}
+@keyframes e {
+  12.5% {
+    color: violet;
+  }
+  25% {
+    color: violet;
+  }
+  37.5% {
+    color: violet;
+  }
+  50% {
+    color: violet;
+  }
+  62.5% {
+    color: violet;    
+  }
+  75% {
+    color: violet;
+  }
+  87.5% {
+    color: violet;
+  }
+  100% {
+    color: black;
+  }
+}
